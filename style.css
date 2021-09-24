@@ -7,20 +7,13 @@ h1 {
 }
 
 body{
-
     font-family: Source Sans Pro;
-}
-
-.newspaper-container {
-    box-shadow: 3px 3px 4px #ddd;
-    width: 700px;
 }
 
 nav  li {
     display: inline;
-    
     padding:3px;
-    }
+}
 
 a {
     text-decoration: none;
@@ -43,7 +36,7 @@ h5 {
 }
 
 p {
-    text-align:left;
+    display: block;
 }
 
 #front-page{
@@ -51,7 +44,11 @@ p {
 }
 
 #section {
-    display: flex;
-    padding: 1em;
-    padding-right: 2em;
+    display: inline-flex;
+    
+}
+
+.newspaper-container {
+    box-shadow: 3px 3px 4px #ddd;
+    width: 700px;
 }
